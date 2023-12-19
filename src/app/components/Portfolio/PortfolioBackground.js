@@ -4,7 +4,7 @@
       id="portfolio"
       className="pt-24 -mb-40 w-full"
       style={{
-        backgroundImage: "linear-gradient(to left, #EEF7FB 50%, white 0% 100%)"
+        backgroundImage: "linear-gradient(-62deg, #EEF7FB 68%, white 0% 100%)"
       }}
     >
       {children}

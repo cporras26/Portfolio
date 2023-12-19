@@ -12,7 +12,7 @@ export default function Portfolio() {
         <PortfolioHeading />
         <CardsContainer>
           {DataArray.map((item, index) => (
-            <Card item={item} />
+            <Card item={item} key={item.name} />
           ))}
         </CardsContainer>
       </Container>

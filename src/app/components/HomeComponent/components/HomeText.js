@@ -3,7 +3,7 @@ import { Hind } from "next/font/google";
 
 const hind = Hind({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700"]
 });
 
 function HomeText() {
@@ -27,7 +27,7 @@ function HomeText() {
           Projects
         </ButtonLink>
         <ButtonLink
-          href="ehizcv.pdf"
+          href="carlosPorrasCV.pdf"
           download="CarlosPorrasResume.pdf"
           style="secondary"
         >

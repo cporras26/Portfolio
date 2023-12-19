@@ -10,7 +10,7 @@ const hind = Hind({
   weight: ["300", "400", "500", "600", "700"]
 });
 export default function Card({ item }) {
-  const { name, description, image, tags, info } = item;
+  const { name, description, image, tags, info, github, demo } = item;
 
   return (
     <div className="overflow-hidden rounded-lg flex flex-col"
@@ -18,14 +18,14 @@ export default function Card({ item }) {
       <img src={image} alt="" className="w-full h-80" />
       <div className="px-4 pt-6 flex-1">
         <div className="flex flex-wrap gap-2 mb-4">
-          {tags.map((technology) => (<Tag technology={technology} />))}
+          {tags.map((technology, index) => (<Tag technology={technology} key={index} />))}
         </div>
         <p className={`text-2xl font-[300] tracking-wider mb-2`}>{name}</p>
         <p className={`text-sm leading-7 ${hind.className}`}>{description}</p>
       </div>
       <div className="flex py-6 px-4 gap-4">
-        <ButtonLink style="primary">GitHub</ButtonLink>
-        <ButtonLink style="secondary">Demo</ButtonLink>
+        <ButtonLink style="primary" href={github} newTab={true}>GitHub</ButtonLink>
+        <ButtonLink style="secondary" href={demo} newTab={true}>Demo</ButtonLink>
         {info && (
           <div className={`ml-auto flex items-center`}>
             <Tooltip content={info} style="dark" className={`w-80 ${hind.className} text-sm`}>
