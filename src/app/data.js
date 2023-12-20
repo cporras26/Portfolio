@@ -3,21 +3,7 @@
 export const AboutData = [
   {
     count: 1,
-    title: "UI / UX Designer",
-    img: "/first.svg",
-    array: [
-      "Information Architecture",
-      "Pen and Paper",
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Figma",
-      "Framer",
-      "Typography / Spacing / ..."
-    ]
-  },
-  {
-    count: 2,
-    title: "Front-end Developer",
+    title: "Front-End",
     img: "/second.svg",
     array: [
       "HTML / CSS3",
@@ -30,8 +16,8 @@ export const AboutData = [
     ]
   },
   {
-    count: 3,
-    title: "Back-end Developer",
+    count: 2,
+    title: "Back-End",
     img: "/third.svg",
     array: [
       "NodeJS / Express.js",
@@ -44,8 +30,8 @@ export const AboutData = [
     ]
   },
   {
-    count: 4,
-    title: "DevOps and Admin",
+    count: 3,
+    title: "DevOps",
     img: "/fourth.svg",
     array: [
       "Docker / CI CD",
@@ -58,21 +44,7 @@ export const AboutData = [
     ]
   },
   {
-    count: 5,
-    title: "CMS and Headless CMS",
-    img: "/fifth.svg",
-    array: [
-      "Contentful",
-      "GraphCMS",
-      "Strapi",
-      "WordPress (Gutenberg)",
-      "Directus",
-      "Sanity",
-      "SiteBaan (My Own)"
-    ]
-  },
-  {
-    count: 6,
+    count: 4,
     title: "Tools and Things",
     img: "/sisxth.svg",
     array: [
@@ -149,7 +121,7 @@ export const DataArray = [
   },
   {
     name: "Nexter",
-    description: "This project was made using only HTML and CSS. The purpose of this project was to learn in depth how flexbox works and also use some new css properties, so the overall layout of the website was built using flexbox. The website is fully responsive, by taking advantage of flexbox properties too. This was the second out of three projects from the Advanced CSS course from Jonas Schmedtmann.",
+    description: "This project was made using only HTML and CSS to simulate the landing page of a company which sells luxury houses. The purpose of this project was to learn in depth how css grid works and also use some new css properties, so the overall layout of the website was built using css grid. The website is fully responsive, by taking advantage of css grid properties too. This was the third and final project from the Advanced CSS course from Jonas Schmedtmann.",
     image: "/nexterImage.png",
     tags: ["HTML", "CSS"],
     github: "https://github.com/cporras26/nexter",
