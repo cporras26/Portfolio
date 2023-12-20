@@ -1,4 +1,8 @@
-﻿export default function Card({ item, index, handleCardClick, selectedIndex }) {
+﻿import { useAboutMeContext } from "@/app/components/AboutMe/context/AboutMeContext";
+
+export default function Card({ item, index }) {
+  const { selectedIndex, handleCardClick } = useAboutMeContext();
+
   return (
     <a onClick={() => handleCardClick(item, index)}
        style={{ boxShadow: "#48AFDE -5px 10px 20px 0" }}

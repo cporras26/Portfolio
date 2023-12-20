@@ -3,30 +3,30 @@
 export const AboutData = [
   {
     count: 1,
-    title: "Front-End",
-    img: "/second.svg",
+    title: "Back-End",
+    img: "/third.svg",
     array: [
-      "HTML / CSS3",
-      "javaScript (ES6)",
-      "ReactJS",
-      "NextJS",
-      "TailwindCSS",
-      "Bootstrap",
-      "REST API / GraphQL"
+      "Asp.Net Core",
+      "Microservices",
+      "Kafka / RabbitMQ / MassTransit",
+      "Redis",
+      "PostgreSQL / MongoDB",
+      "Rest APIs",
+      "gRPC",
+      "Intermediate: Golang - NodeJS"
     ]
   },
   {
     count: 2,
-    title: "Back-End",
-    img: "/third.svg",
+    title: "Front-End",
+    img: "/second.svg",
     array: [
-      "NodeJS / Express.js",
-      "MongoDB / MySQL / MSSQL",
-      "Next.js (API)",
-      "PHP",
-      "WordPress Theme Dev",
-      "WordPress Plugin Dev.",
-      "ASP (Once upon a time)"
+      "HTML / CSS -> Design Principles",
+      "JavaScript (ES6)",
+      "ReactJS",
+      "NextJS",
+      "TailwindCSS / Styled Components",
+      "Intermediate: Angular - Bootstrap"
     ]
   },
   {
@@ -34,13 +34,10 @@ export const AboutData = [
     title: "DevOps",
     img: "/fourth.svg",
     array: [
-      "Docker / CI CD",
-      "Apache / Nginx",
-      "CentOS / Ubuntu",
-      "Windows Server / IIS",
-      "Mail Servers / DNS Servers",
-      "Firewalls / Security",
-      "VMWare ESXi"
+      "Docker",
+      "CI/CD",
+      "GitHub",
+      "Ansible"
     ]
   },
   {
@@ -48,13 +45,13 @@ export const AboutData = [
     title: "Tools and Things",
     img: "/sisxth.svg",
     array: [
-      "VSCode",
+      "VSCode / Visual Studio / Rider",
       "Git / Github",
       "Bash / Powershell",
-      "NPM / Yarn",
-      "Plesk Control Panel",
-      "Vercel / Stormkit / Netlify",
-      "Postman / Insomnia"
+      "NPM / PNPM",
+      "Jira - Scrum",
+      "Vercel / Netlify",
+      "Postman"
     ]
   }
 ];

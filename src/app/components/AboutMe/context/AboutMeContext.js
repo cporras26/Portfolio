@@ -9,6 +9,8 @@ function AboutMeProvider({ children }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [mappedData, setMappedData] = useState(AboutData[0]);
 
+  const numItems = AboutData.length;
+
   const myFunctions = (data) => {
     setIsFlipped(false);
     setIsFaded(false);
@@ -24,13 +26,13 @@ function AboutMeProvider({ children }) {
   };
 
   const handleNext = () => {
-    if (selectedIndex < 5) handleCardClick(AboutData[selectedIndex + 1], selectedIndex + 1);
-    handleCardClick(AboutData[0], 0);
+    if (selectedIndex < numItems - 1) handleCardClick(AboutData[selectedIndex + 1], selectedIndex + 1);
+    else handleCardClick(AboutData[0], 0);
   };
 
   const handlePrevious = () => {
     if (selectedIndex !== 0) handleCardClick(AboutData[selectedIndex - 1], selectedIndex - 1);
-    handleCardClick(AboutData[5], 5);
+    else handleCardClick(AboutData[numItems - 1], numItems - 1);
   };
 
   return (
