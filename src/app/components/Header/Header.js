@@ -36,13 +36,13 @@ export default function Header() {
         </DrawerButton>
 
         <Nav>
-          <NavItem navItem="home">Home</NavItem>
+          <NavItem navItem="#home">Home</NavItem>
 
-          <NavItem navItem="portfolio">Portfolio</NavItem>
+          <NavItem navItem="#portfolio">Portfolio</NavItem>
 
-          <NavItem navItem="aboutMe">About Me</NavItem>
+          <NavItem navItem="#aboutMe">About Me</NavItem>
 
-          <NavItem navItem="contactMe">Contact Me</NavItem>
+          <NavItem navItem="pages/contactme">Contact Me</NavItem>
         </Nav>
 
       </HeaderComponent>

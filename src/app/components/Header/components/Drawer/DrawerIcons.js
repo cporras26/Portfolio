@@ -17,7 +17,7 @@ export default function DrawerIcons() {
          target="_blank">
         <LinkedinIcon />
       </a>
-      <a href="https://www.linkedin.com/in/carlos-eduardo-porras-carvajal-82a064207/"
+      <a href="https://www.youtube.com/channel/UCk90yt6B_9EqRJh7kugyPHA"
          className="text-gray-300 hover:text-white transition-color duration-300"
          target="_blank">
         <YoutubeIcon />

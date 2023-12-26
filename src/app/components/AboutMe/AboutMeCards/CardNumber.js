@@ -3,7 +3,7 @@
 export default function CardNumber() {
   const { mappedData, isFlipped } = useAboutMeContext();
   return (
-    <div className="absolute -top-7 sm:-top-8 right-0 sm:-right-20">
+    <div className="block sm:hidden md:block absolute -top-7 sm:-top-8 right-0 md:-right-14">
       <div className={`card ${isFlipped ? "flipped" : ""}`}>
         <div className="rounded-2xl text-7xl xl:text-8xl font-recoletaBlack
           text-white bg-[#47626D] p-5 xl:p-8 w-28 h-28 xl:w-36 xl:h-36 transform transition duration-500

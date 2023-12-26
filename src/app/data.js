@@ -66,7 +66,7 @@ export const DataArray = [
     tags: ["NetCore", "NextJS", "Tailwind"],
     info: "These services communicate asynchronously using a rabbitmq service bus and synchronously using gRPC. Some of them use a postgreSQL database and others mongo. So these show the flexibility that microservices can bring. The client talks to a gateway service which serves as a reverse-proxy and routes the calls to the corresponding API. Also SignalR is implemented to show some real-time events in the client.",
     github: "https://github.com/cporras26/Carsties",
-    demo: "google.com"
+    demo: "https://app.caredox.net"
   },
   {
     name: "The Wild Oasis",
