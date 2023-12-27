@@ -13,8 +13,8 @@ export default function CardDetails() {
       <h2
         className="font-recoletaBold text-[#47626D] text-3xl sm:text-2xl md:text-3xl mb-4 w-44 md:w-56">{mappedData.title}</h2>
       <ul className={`${hind.className} ml-8 lg:ml-10 font-[300] list-disc text-[#47626D] lg:text-lg`}>
-        {mappedData.array.map(skill => (
-          <li>{skill}</li>
+        {mappedData.array.map((skill, index) => (
+          <li key={index}>{skill}</li>
         ))}
       </ul>
     </section>

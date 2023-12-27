@@ -7,7 +7,7 @@ function SliderImage({ src, className = "" }) {
       width={150}
       src={src}
       alt="slider image"
-      className={`h-10 cursor-pointer ${className}`}
+      className={`h-10 w-32 cursor-pointer ${className}`}
     />
   );
 }

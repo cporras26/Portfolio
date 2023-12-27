@@ -8,7 +8,7 @@ export default function Cards() {
       <div className="grid sm:grid-cols-2 gap-6">
         {
           AboutData.map((item, index) => (
-            <Card item={item} index={index}
+            <Card item={item} index={index} key={index}
             />))
         }
       </div>
