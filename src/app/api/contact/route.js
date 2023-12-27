@@ -2,9 +2,7 @@
 import { createTransport } from "nodemailer";
 
 export async function POST(request) {
-  require("dotenv").config;
   const data = await request.json();
-  let nodemailer = require("nodemailer");
 
   try {
     const transporter = createTransport({
@@ -13,8 +11,8 @@ export async function POST(request) {
       service: "gmail",
 
       auth: {
-        user: "carlosporrasc26@gmail.com",
-        pass: "ypjjittmnkffnqpo"
+        user: process.env.EMAIL,
+        pass: process.env.PASSWORD
       }
     });
 
